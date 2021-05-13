@@ -74,7 +74,7 @@ steve.barkHello()
 // inheritance -- taking a parent object's shape (constructor)
 class Retriever extends Dog {
   constructor(name, age, color) { // polymorphism -- same interface as parent
-    super(name, age)
+    super(name, age) // parent class === super class
     this.color = color
   }
 
